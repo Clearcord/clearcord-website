@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="client-styles.css">
+    <title>Clearcord Client</title>
+</head>
+<body>
+    <div id="app">
+        <div id="server-sidebar">
+            <!-- server icons will be populated by the js -->
+        </div>
+        <div id="sidebar">
+            <h2>Friends</h2>
+            <ul id="friends-list"></ul>
+        </div>
+        <div id="main-content">
+            <!-- nothing here for now, will be populated-->
+        </div>
+    </div>
+
+    <div id="dark-mode-toggle" onclick="toggleDarkMode()">
+        <img id="dark-mode-icon" src="icons/dark.svg" alt="Light Mode">
+    </div>
+
+    <script src="client-script.js"></script>
+</body>
+</html>
